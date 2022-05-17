@@ -26,3 +26,7 @@ $("input").keydown(function() {
 $("h1").on("mouseover",function() {
     $("h1").css("color", "green");
 });
+
+//adding and removing elements jQuery
+$("h1").before("<button>New</button>");
+//$("button").remove(); removes all the buttons.
